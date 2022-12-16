@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Oswald:wght@200&display=swap');
+
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    background-color: rgb(237, 227, 227);
+    font-family: "Oswald",sans-serif;
+    font-size: clamp(1rem 2.2vh 11.5rem);
+}
+
+.header {
+    background-image: url(CakeFrontImage.jpg);
+    background-size: cover;
+    height: 90vh;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__h1 {
+    color: #000;
+    margin-top: 1.5rem;
+    font-style: oblique;
+}
+
+.nav__bar__ul {
+    display: flex;
+    justify-content: flex-end;
+    margin: 3rem 2rem 0 0;
+}
+
+.nav-item {
+    font-size: 20px;
+    text-align: center;
+    padding: 0.5rem;
+    list-style: none; 
+}
+
+/*
+#hero {
+     border: 1px solid black;
+    margin-left: 2rem;
+    margin-top: 10px; 
+}
+*/
+
+#article__h2 {
+    text-align: center;
+}
+
+.butter__cake {
+    display: inline-flex;
+}
+
+.section-title {
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.carrot__cake {
+    display: inline-flex;
+}
+
+.chiffon__cake {
+    display: inline-flex;
+}
+
+.genoise__cake {
+    display: inline-flex;
+}
+
+.pound__cake {
+    display: inline-flex;
+}
+
+.redvelvet__cake {
+    display: inline-flex;
+}
+
+.figure {
+    display: inline-block;
+    border : 1px solid #000;
+    border-radius: 10%;
+    margin: 1.5rem;
+}
+
+.figure:hover {
+    transform: scale(1.2);
+} 
+
+.figure img {
+    border-top-left-radius: 11%;
+    border-top-right-radius: 11%;
+}
+
+.offscreen {
+    text-align: center;
+}
+
+.button {
+    margin: 10px 5px;
+    padding: 10px 15px;
+}
+.button:hover {
+    background-color: #000;
+    color: white;
+}
+
+
