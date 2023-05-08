@@ -16,10 +16,7 @@ html {
 }
 
 .header {
-    background-image: url(CakeFrontImage.jpg);
     background-size: cover;
-    height: 90vh;
-    width: 80%;
     display: flex;
     justify-content: space-between;
 }
@@ -43,13 +40,18 @@ html {
     list-style: none; 
 }
 
-/*
+
 #hero {
-     border: 1px solid black;
+     
     margin-left: 2rem;
     margin-top: 10px; 
 }
-*/
+
+#hero img {
+    place-content: center;
+    border: 1px solid black;
+}
+
 
 #article__h2 {
     text-align: center;
